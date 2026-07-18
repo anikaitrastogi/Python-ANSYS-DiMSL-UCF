@@ -22,7 +22,7 @@ This code supports model verification for a broader reduced-order modeling (ROM)
     -Spatially varied deformation due to sinusodal wave load centerline.txt
     -Spatially varied deformation due to sinusodal wave load quarterline.txt
     
-- requirements.txt
+- PyANSYS requirements.txt
 - README.md
 
 ## Requirements
