@@ -1,0 +1,4 @@
+ansys-mapdl-core
+numpy
+matplotlib
+scipy
