@@ -21,6 +21,7 @@ Matplotlib sinusoidal wave deformations graph quarterline vs. centerline.py - Pl
 results/
     Spatially varied deformation due to sinusodal wave load centerline.txt
     Spatially varied deformation due to sinusodal wave load quarterline.txt
+    
 requirements.txt
 README.md
 
