@@ -1,4 +1,4 @@
-# Spatially-Varying Pressure Load Solver — PyMAPDL
+# Spatially-Varying Pressure Load Solver: PyMAPDL
 Python/ANSYS structural solvers for applying static and spatially-varying pressure loads to a compliant panel, developed as part of ongoing fluid-structure interaction (FSI) research at the UCF Data-informed Multiphysics Laboratory (DiMSL).
 
 ## Overview
@@ -13,11 +13,14 @@ This code supports model verification for a broader reduced-order modeling (ROM)
 - Load cases: uniform-pressure baseline vs. spatially-varying pressure field
 
 ## Repository Structure
-static_solver.py                 - PyMAPDL solver for uniform pressure loading
-spatially_varied_solver.py       - PyMAPDL solver with custom P(x,y) interpolation
-pressure_field_generation.m      - MATLAB script generating pressure grid data
-pressure_input.txt               - Sample pressure field input
-plot_deflection_validation.py    - Plots/compares deflection results across cases
+PyANSYS_static_solver.py                 - PyMAPDL solver for uniform pressure loading
+PyANSYS_spatially_varied_solver.py       - PyMAPDL solver with custom P(x,y) interpolation
+Pressure_x_y_matrix_creation_sin_wave.m      - MATLAB script generating pressure grid data for spatially varied solver
+Pressure Loads.txt               - Sample pressures for static solver
+Matplotlib sinusoidal wave deformations graph quarterline vs. centerline.py - Plots/compares deflection results for panel's centerline path and "quarter"line path
+results/
+    Spatially varied deformation due to sinusodal wave load centerline.txt
+    Spatially varied deformation due to sinusodal wave load quarterline.txt
 requirements.txt
 README.md
 
