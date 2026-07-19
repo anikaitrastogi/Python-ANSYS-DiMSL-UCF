@@ -19,8 +19,8 @@ This code supports model verification for a broader reduced-order modeling (ROM)
 - Pressure Loads.txt                Sample pressures for static solver
 - Matplotlib sinusoidal wave deformations graph quarterline vs. centerline.py  Plots/compares deflection results for panel's - centerline path and "quarter"line path
 - results/
-    -Spatially varied deformation due to sinusodal wave load centerline.txt
-    -Spatially varied deformation due to sinusodal wave load quarterline.txt
+    - Spatially varied deformation due to sinusodal wave load centerline.txt
+    - Spatially varied deformation due to sinusodal wave load quarterline.txt
     
 - PyANSYS requirements.txt
 - README.md
